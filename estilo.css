@@ -8,6 +8,7 @@ body{
 }
 .texto-centrado{
     text-align: center;
+    font-size: 1em;
 }
 .deco{
     border-radius: 0%;
@@ -15,4 +16,23 @@ body{
 }
 #boton:hover{
     background-color: brown;
+}
+img{
+    width: 300px;
+    border-radius: 10px;
+    margin: 2%;
+}
+@media only screen and (max-width: 768px){
+    .texto-centrado{
+        width: 50%;
+        margin: 20%;
+        font-size: 0.75;
+    }
+    #imagen-boton{
+        margin: 10% 40% 10% 40%;
+        display: block;
+    }
+}
+@media only screen and (max-width: 480%){
+    #imagen-bot
 }
